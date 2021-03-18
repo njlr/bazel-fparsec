@@ -9,10 +9,11 @@ fsharp_binary(
     "@core_sdk_stdlib//:libraryset",
     "@fsharp.core//:lib",
 
+    "@fparsec//:lib",
+
     # Work-around...
-    # "@fparsec//:lib",
-    "@FParsec//:FParsec.dll",
-    "@FParsec//:FParsecCS.dll",
+    # "@FParsec//:FParsec.dll",
+    # "@FParsec//:FParsecCS.dll",
 
   ],
 )
